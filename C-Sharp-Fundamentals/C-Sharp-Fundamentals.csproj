@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>C_Sharp_Fundamentals</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="program2.cs" />
+    <Compile Remove="program3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="program2.cs" />
+    <None Include="program3.cs" />
+  </ItemGroup>
+
+</Project>
